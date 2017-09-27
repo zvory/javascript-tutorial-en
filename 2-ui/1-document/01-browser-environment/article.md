@@ -62,7 +62,7 @@ In the ancient past, there was no standard at all -- each browser implemented wh
 
 Even now we can sometimes meet old code that uses browser-specific properties and works around incompatibilities. But in this tutorial we'll use modern stuff: there's no need to learn old things until you really need those (chances are high you won't).
 
-Then the DOM standard appeared, in an attempt to bring everyone to an agreement. The first version was "DOM Level 1", then it was extended by DOM Level 2, then DOM Level 3, and now it's DOM Level 4. People from WhatWG group got tired of version and are calling that just "DOM", without a number. So will do we.
+Then the DOM standard appeared, in an attempt to bring everyone to an agreement. The first version was "DOM Level 1", then it was extended by DOM Level 2, then DOM Level 3, and now it's DOM Level 4. People from WhatWG group got tired of version and are calling that just "DOM", without a number. So will we.
 
 ```smart header="DOM is not only for browsers"
 The DOM specification explains the structure of a document and provides objects to manipulate it. There are non-browser instruments that use it too.

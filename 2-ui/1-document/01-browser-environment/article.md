@@ -71,7 +71,7 @@ For instance, server-side tools that download HTML pages and process them. They 
 ```
 
 ```smart header="CSSOM for styling"
-CSS rules and stylesheets are structured not like HTML. So there's a separate specification [CSSOM](https://www.w3.org/TR/cssom-1/) that explains how they are represented as objects, how to read and write them.
+CSS rules and stylesheets are not structured like HTML. So there's a separate specification [CSSOM](https://www.w3.org/TR/cssom-1/) that explains how they are represented as objects, how to read and write them.
 
 CSSOM is used together with DOM when we modify style rules for the document. In practice though, CSSOM is rarely required, because usually CSS rules are static. We rarely need to add/remove CSS rules from JavaScript, so we won't cover it right now.
 ```
